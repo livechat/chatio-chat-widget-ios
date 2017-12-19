@@ -1,0 +1,6 @@
+framework module chatio {
+  umbrella header "chatio-umbrella.h"
+
+  export *
+  module * { export * }
+}

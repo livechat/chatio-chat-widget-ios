@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB3C354575F53AA4004C73749C08918 /* Pods-Example-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFE6CA32C65203B0D97018EE33FF7A /* Pods-Example-Swift-dummy.m */; };
+		0FF14355546888EA264F99A88EBBA2B8 /* chatio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081D9FD8156FF7525FB1D0D65078B7FE /* chatio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E6E26CC8161844EE66C246577E6DF1 /* Chatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B153549B1C3D876CCB066BA9F9B34AB /* Chatio.swift */; };
+		1A236D1DA668D73EB8FF625879B9E384 /* UnreadMessagesCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DC15615EBFF64E8EBF7DED5725B72 /* UnreadMessagesCounter.swift */; };
+		28B1F1C815A2FA975AF5F6D91774F5B8 /* chatio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E539787DC67C97619223842978720 /* chatio-dummy.m */; };
+		4831CD52B9B28574E72D8C0BB7668088 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42163CC297E8E38E128C00937B3B2F /* URLBuilder.swift */; };
+		4CBF2495CF5B31374B8FE583B759CB75 /* WebViewAnimationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8613D76C1C22C8BBA91B6EAF8446F /* WebViewAnimationCoordinator.swift */; };
+		55CA828E6838002D67D4DA175F5821A0 /* ChatioState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44774847616E077683072C43645BD609 /* ChatioState.swift */; };
+		5799709FAFA2104718B0BCEE9884F5BF /* ChatioConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB84E682B42175DB821D89EDF4092E2 /* ChatioConfiguration.swift */; };
+		75158E5DDFEDF3555C626ABF6AB66355 /* ChatioWidget.js in Resources */ = {isa = PBXBuildFile; fileRef = 3977215DAA68B053253BF201A4AD769B /* ChatioWidget.js */; };
+		7DD620A1A59A5CBB77FBF43D37CC15EA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822967764AF85E0CCC9BCC391E8C6E4A /* LoadingView.swift */; };
+		825A5A2A774A936A627E3FAD4553D3FF /* HideInputAccessoryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49FF09AB2079B281E6B39DE09A459A /* HideInputAccessoryHelper.swift */; };
+		8399584264D20B10327231789A885531 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */; };
+		8BD569028FCBC5E2128E6668AFCAC435 /* WebViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7663620C167FD697CECAF6B7E932E /* WebViewBridge.swift */; };
+		8C516D5151D4DD4A7CD4C9784B351721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+		97E04C54757EE711B513915B13E7D970 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBCFC19FB588B519C07F9CC2332A492 /* KeyboardNotification.swift */; };
+		9A91BC73D6CDC37CFB8DDC228ADE99F9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46DBA32AC119D789400FC749D68F42 /* ChatView.swift */; };
+		B9EF556A016E2BBDFEBB079A8E486436 /* ChatioOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B1FF25D56F1107FE4DD4350D633963 /* ChatioOverlayViewController.swift */; };
+		BCE6B5EB60ECB107E0B845D941B48E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+		D2C2203D9C63CDD9EEA7182395E468C7 /* ChatioMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB7A423E2CA0B918AE3A5395F76021 /* ChatioMessage.swift */; };
+		DF3BCB3178A1DBC3E9FE23B7EC0BCBD4 /* Pods-Example-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E76078BC0AA79A98F3496656820B01D /* Pods-Example-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3CDE14DC084F2C27B21A886B88D840C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89BCF075F86BD7093FED24BF1E2650FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74484E4EA453B6CACB3E9B5F8B8512E7;
+			remoteInfo = chatio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E1B6295E23498AD0FE9B4BBB9504C0 /* Pods-Example-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		081D9FD8156FF7525FB1D0D65078B7FE /* chatio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "chatio-umbrella.h"; sourceTree = "<group>"; };
+		0E4E539787DC67C97619223842978720 /* chatio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "chatio-dummy.m"; sourceTree = "<group>"; };
+		15CFF558132743A84ACBDDD478D941FE /* Pods-Example-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example-Swift.modulemap"; sourceTree = "<group>"; };
+		240130976BA130A88D943CDA51F0FB91 /* Pods-Example-Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-Swift-frameworks.sh"; sourceTree = "<group>"; };
+		3515A9E94E973E097A31AC7C9185074D /* Pods-Example-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		38911C9AEFE277F3DA98FED54E3DC7CC /* chatio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = chatio.xcconfig; sourceTree = "<group>"; };
+		3977215DAA68B053253BF201A4AD769B /* ChatioWidget.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = ChatioWidget.js; path = Sources/ChatioWidget.js; sourceTree = "<group>"; };
+		3BE7663620C167FD697CECAF6B7E932E /* WebViewBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewBridge.swift; path = Sources/WebViewBridge.swift; sourceTree = "<group>"; };
+		40B1FF25D56F1107FE4DD4350D633963 /* ChatioOverlayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatioOverlayViewController.swift; path = Sources/ChatioOverlayViewController.swift; sourceTree = "<group>"; };
+		44774847616E077683072C43645BD609 /* ChatioState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatioState.swift; path = Sources/ChatioState.swift; sourceTree = "<group>"; };
+		47AFE6CA32C65203B0D97018EE33FF7A /* Pods-Example-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-Swift-dummy.m"; sourceTree = "<group>"; };
+		608428876FC79E1067F573F1090BF382 /* Pods-Example-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-Swift-resources.sh"; sourceTree = "<group>"; };
+		660A2ECE491104464EC11A196606263B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBB7A423E2CA0B918AE3A5395F76021 /* ChatioMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatioMessage.swift; path = Sources/ChatioMessage.swift; sourceTree = "<group>"; };
+		6E76078BC0AA79A98F3496656820B01D /* Pods-Example-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-Swift-umbrella.h"; sourceTree = "<group>"; };
+		6FBCFC19FB588B519C07F9CC2332A492 /* KeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardNotification.swift; path = Sources/KeyboardNotification.swift; sourceTree = "<group>"; };
+		7361837394F1A5AFFD5520836ED25489 /* chatio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "chatio-prefix.pch"; sourceTree = "<group>"; };
+		7410B20FCB3EEB25B58007A33D7CA806 /* Pods_Example_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		822967764AF85E0CCC9BCC391E8C6E4A /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Sources/LoadingView.swift; sourceTree = "<group>"; };
+		8E46DBA32AC119D789400FC749D68F42 /* ChatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatView.swift; path = Sources/ChatView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B153549B1C3D876CCB066BA9F9B34AB /* Chatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chatio.swift; path = Sources/Chatio.swift; sourceTree = "<group>"; };
+		ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD42163CC297E8E38E128C00937B3B2F /* URLBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLBuilder.swift; path = Sources/URLBuilder.swift; sourceTree = "<group>"; };
+		BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		C18E08E2B98F25ED6F70CF2B003D09DD /* Pods-Example-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		CCB84E682B42175DB821D89EDF4092E2 /* ChatioConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatioConfiguration.swift; path = Sources/ChatioConfiguration.swift; sourceTree = "<group>"; };
+		D502E4263B50B545110DACD73F6E0823 /* Pods-Example-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBC8613D76C1C22C8BBA91B6EAF8446F /* WebViewAnimationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewAnimationCoordinator.swift; path = Sources/WebViewAnimationCoordinator.swift; sourceTree = "<group>"; };
+		E09150126ADF9EC11BB3774C8FFA39E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97DC15615EBFF64E8EBF7DED5725B72 /* UnreadMessagesCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnreadMessagesCounter.swift; path = Sources/UnreadMessagesCounter.swift; sourceTree = "<group>"; };
+		F873E71FE2A0FEE4152D1AF724496A62 /* chatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA49FF09AB2079B281E6B39DE09A459A /* HideInputAccessoryHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HideInputAccessoryHelper.swift; path = Sources/HideInputAccessoryHelper.swift; sourceTree = "<group>"; };
+		FE88AB0E79AD1FFC7767B54889E59556 /* chatio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = chatio.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270010B140A214D812DC5EF73B665B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE6B5EB60ECB107E0B845D941B48E8B /* Foundation.framework in Frameworks */,
+				E3CDE14DC084F2C27B21A886B88D840C /* UIKit.framework in Frameworks */,
+				8399584264D20B10327231789A885531 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9D068AF415DFB70848C8F4A4A8CEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C516D5151D4DD4A7CD4C9784B351721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D21A80A7717CA9FF6F518C4E1DFB9D0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1980899E5ACC503E4BA6A4E37030BBE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE88AB0E79AD1FFC7767B54889E59556 /* chatio.modulemap */,
+				38911C9AEFE277F3DA98FED54E3DC7CC /* chatio.xcconfig */,
+				0E4E539787DC67C97619223842978720 /* chatio-dummy.m */,
+				7361837394F1A5AFFD5520836ED25489 /* chatio-prefix.pch */,
+				081D9FD8156FF7525FB1D0D65078B7FE /* chatio-umbrella.h */,
+				660A2ECE491104464EC11A196606263B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Examples/Example-Swift/Pods/Target Support Files/chatio";
+			sourceTree = "<group>";
+		};
+		2AF6172FE54A563EED60DC657C4E75B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3977215DAA68B053253BF201A4AD769B /* ChatioWidget.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B45A4605CCD1DCC9C2CA81AA2D50EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F873E71FE2A0FEE4152D1AF724496A62 /* chatio.framework */,
+				7410B20FCB3EEB25B58007A33D7CA806 /* Pods_Example_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D21A80A7717CA9FF6F518C4E1DFB9D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */,
+				ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */,
+				BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B4F073162E50F9E55ECBCC80B6E0D63 /* chatio */ = {
+			isa = PBXGroup;
+			children = (
+				8E46DBA32AC119D789400FC749D68F42 /* ChatView.swift */,
+				FA49FF09AB2079B281E6B39DE09A459A /* HideInputAccessoryHelper.swift */,
+				6FBCFC19FB588B519C07F9CC2332A492 /* KeyboardNotification.swift */,
+				9B153549B1C3D876CCB066BA9F9B34AB /* Chatio.swift */,
+				CCB84E682B42175DB821D89EDF4092E2 /* ChatioConfiguration.swift */,
+				6BBB7A423E2CA0B918AE3A5395F76021 /* ChatioMessage.swift */,
+				40B1FF25D56F1107FE4DD4350D633963 /* ChatioOverlayViewController.swift */,
+				44774847616E077683072C43645BD609 /* ChatioState.swift */,
+				822967764AF85E0CCC9BCC391E8C6E4A /* LoadingView.swift */,
+				E97DC15615EBFF64E8EBF7DED5725B72 /* UnreadMessagesCounter.swift */,
+				AD42163CC297E8E38E128C00937B3B2F /* URLBuilder.swift */,
+				DBC8613D76C1C22C8BBA91B6EAF8446F /* WebViewAnimationCoordinator.swift */,
+				3BE7663620C167FD697CECAF6B7E932E /* WebViewBridge.swift */,
+				2AF6172FE54A563EED60DC657C4E75B0 /* Resources */,
+				1980899E5ACC503E4BA6A4E37030BBE6 /* Support Files */,
+			);
+			name = chatio;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9E814E902AD70F456AF4E0129FA51A10 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				3B45A4605CCD1DCC9C2CA81AA2D50EAB /* Products */,
+				EF8AA359D0F584D024D4622F2B359822 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF08FD5832A6E634F078CDE93C45E72 /* Pods-Example-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E09150126ADF9EC11BB3774C8FFA39E4 /* Info.plist */,
+				15CFF558132743A84ACBDDD478D941FE /* Pods-Example-Swift.modulemap */,
+				D502E4263B50B545110DACD73F6E0823 /* Pods-Example-Swift-acknowledgements.markdown */,
+				03E1B6295E23498AD0FE9B4BBB9504C0 /* Pods-Example-Swift-acknowledgements.plist */,
+				47AFE6CA32C65203B0D97018EE33FF7A /* Pods-Example-Swift-dummy.m */,
+				240130976BA130A88D943CDA51F0FB91 /* Pods-Example-Swift-frameworks.sh */,
+				608428876FC79E1067F573F1090BF382 /* Pods-Example-Swift-resources.sh */,
+				6E76078BC0AA79A98F3496656820B01D /* Pods-Example-Swift-umbrella.h */,
+				3515A9E94E973E097A31AC7C9185074D /* Pods-Example-Swift.debug.xcconfig */,
+				C18E08E2B98F25ED6F70CF2B003D09DD /* Pods-Example-Swift.release.xcconfig */,
+			);
+			name = "Pods-Example-Swift";
+			path = "Target Support Files/Pods-Example-Swift";
+			sourceTree = "<group>";
+		};
+		9E814E902AD70F456AF4E0129FA51A10 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B4F073162E50F9E55ECBCC80B6E0D63 /* chatio */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF8AA359D0F584D024D4622F2B359822 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF08FD5832A6E634F078CDE93C45E72 /* Pods-Example-Swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		278CD2659739FA41415DD6B486C0A849 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF14355546888EA264F99A88EBBA2B8 /* chatio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB60B9E0BBB13C933F86C8BC9942D6ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3BCB3178A1DBC3E9FE23B7EC0BCBD4 /* Pods-Example-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74484E4EA453B6CACB3E9B5F8B8512E7 /* chatio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4668F67C7161498D3DCCB096FA07106 /* Build configuration list for PBXNativeTarget "chatio" */;
+			buildPhases = (
+				689CC2B63DD96C5BFC8CF998AC3E3398 /* Sources */,
+				270010B140A214D812DC5EF73B665B1C /* Frameworks */,
+				0F4709A82761753AF28A9939FB512343 /* Resources */,
+				278CD2659739FA41415DD6B486C0A849 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatio;
+			productName = chatio;
+			productReference = F873E71FE2A0FEE4152D1AF724496A62 /* chatio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ACF5C34B94B5671780652669462FEC6 /* Pods-Example-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA644F71A94E3E49B267AA64C6D7A2D /* Build configuration list for PBXNativeTarget "Pods-Example-Swift" */;
+			buildPhases = (
+				1D611B92E6C124BF1AD7660CD13D7C84 /* Sources */,
+				DA9D068AF415DFB70848C8F4A4A8CEC0 /* Frameworks */,
+				AB60B9E0BBB13C933F86C8BC9942D6ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D922C66D55332D1480B3F8AC1A76C33F /* PBXTargetDependency */,
+			);
+			name = "Pods-Example-Swift";
+			productName = "Pods-Example-Swift";
+			productReference = 7410B20FCB3EEB25B58007A33D7CA806 /* Pods_Example_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B45A4605CCD1DCC9C2CA81AA2D50EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74484E4EA453B6CACB3E9B5F8B8512E7 /* chatio */,
+				8ACF5C34B94B5671780652669462FEC6 /* Pods-Example-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4709A82761753AF28A9939FB512343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75158E5DDFEDF3555C626ABF6AB66355 /* ChatioWidget.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D611B92E6C124BF1AD7660CD13D7C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB3C354575F53AA4004C73749C08918 /* Pods-Example-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689CC2B63DD96C5BFC8CF998AC3E3398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B1F1C815A2FA975AF5F6D91774F5B8 /* chatio-dummy.m in Sources */,
+				9A91BC73D6CDC37CFB8DDC228ADE99F9 /* ChatView.swift in Sources */,
+				825A5A2A774A936A627E3FAD4553D3FF /* HideInputAccessoryHelper.swift in Sources */,
+				97E04C54757EE711B513915B13E7D970 /* KeyboardNotification.swift in Sources */,
+				17E6E26CC8161844EE66C246577E6DF1 /* Chatio.swift in Sources */,
+				5799709FAFA2104718B0BCEE9884F5BF /* ChatioConfiguration.swift in Sources */,
+				D2C2203D9C63CDD9EEA7182395E468C7 /* ChatioMessage.swift in Sources */,
+				B9EF556A016E2BBDFEBB079A8E486436 /* ChatioOverlayViewController.swift in Sources */,
+				55CA828E6838002D67D4DA175F5821A0 /* ChatioState.swift in Sources */,
+				7DD620A1A59A5CBB77FBF43D37CC15EA /* LoadingView.swift in Sources */,
+				1A236D1DA668D73EB8FF625879B9E384 /* UnreadMessagesCounter.swift in Sources */,
+				4831CD52B9B28574E72D8C0BB7668088 /* URLBuilder.swift in Sources */,
+				4CBF2495CF5B31374B8FE583B759CB75 /* WebViewAnimationCoordinator.swift in Sources */,
+				8BD569028FCBC5E2128E6668AFCAC435 /* WebViewBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D922C66D55332D1480B3F8AC1A76C33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = chatio;
+			target = 74484E4EA453B6CACB3E9B5F8B8512E7 /* chatio */;
+			targetProxy = 89BCF075F86BD7093FED24BF1E2650FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06D4CE4BD6193F6691F4BEAE5D166EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38911C9AEFE277F3DA98FED54E3DC7CC /* chatio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/chatio/chatio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/chatio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/chatio/chatio.modulemap";
+				PRODUCT_NAME = chatio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D5B5993C8D9593A12EAD1F25E2B22ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38911C9AEFE277F3DA98FED54E3DC7CC /* chatio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/chatio/chatio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/chatio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/chatio/chatio.modulemap";
+				PRODUCT_NAME = chatio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B2A9A34D6B5E9587738F30221127661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18E08E2B98F25ED6F70CF2B003D09DD /* Pods-Example-Swift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-Swift/Pods-Example-Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D425D1AE0ED934C57D4140CFB1288326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3515A9E94E973E097A31AC7C9185074D /* Pods-Example-Swift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-Swift/Pods-Example-Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA644F71A94E3E49B267AA64C6D7A2D /* Build configuration list for PBXNativeTarget "Pods-Example-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D425D1AE0ED934C57D4140CFB1288326 /* Debug */,
+				3B2A9A34D6B5E9587738F30221127661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4668F67C7161498D3DCCB096FA07106 /* Build configuration list for PBXNativeTarget "chatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5B5993C8D9593A12EAD1F25E2B22ED /* Debug */,
+				06D4CE4BD6193F6691F4BEAE5D166EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

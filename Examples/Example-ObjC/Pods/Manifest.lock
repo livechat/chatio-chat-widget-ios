@@ -1,0 +1,16 @@
+PODS:
+  - chatio (2.0.7)
+
+DEPENDENCIES:
+  - chatio (from `../../`)
+
+EXTERNAL SOURCES:
+  chatio:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  chatio: fe4709429437b48c664de9fec76a10c490be9085
+
+PODFILE CHECKSUM: 2416ad9564365c7e38310797094af699000bf259
+
+COCOAPODS: 1.3.1
