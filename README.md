@@ -1,6 +1,6 @@
 ## Introduction
 
-chat.io for allows you to integrate [chat.io](https://chat.io) into your iOS app.
+chat.io for iOS allows you to integrate [chat.io](https://chat.io) into your iOS app.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 [![Version](https://img.shields.io/cocoapods/v/chatio.svg?style=flat)](http://cocoapods.org/pods/chatio)
